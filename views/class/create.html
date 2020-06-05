@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html lang="en"> 
+     <head> 
+         <title>Class List: Create</title> 
+         <meta charset="utf-8" /> 
+         <script src="/cdn/scripts/class/index.js"></script><!-- Our JavaScript code for this page-->
+    </head> 
+    <body> 
+            <h1>Students in the School of EIE:</h1> 
+            <ol id="classList"> 
+                <!-- The list of students in the school--> 
+            </ol> 
+        <h4>Enter the student's details below:</h4>
+        <form action="/class/api/create" method="post"> 
+            <div> 
+                <label for="studentName">Name:</label> 
+                <input type="text" id="studentname" name="studentname" placeholder="name here"> 
+            </div> 
+            <div class="button"> 
+                <button type="submit">Add</button> 
+            </div> 
+        </form> 
+    </body> 
+</html>
